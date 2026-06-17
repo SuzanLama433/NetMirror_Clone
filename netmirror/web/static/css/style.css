@@ -1,0 +1,124 @@
+.new_navbar {
+    background-color: rgba(52, 50, 50, 0.27);
+
+}
+
+body{
+    background-color: rgba(22, 20, 20, 0.581);
+}
+
+
+.hero {
+    background-image: url("../images/av1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh; /* Full viewport height */
+}
+
+.para {
+    margin-top: 350px;
+    color: white;
+    padding: 10px;
+}
+.oppa {
+    background-color: rgba(45, 43, 43, 0.95); 
+    padding: 20px;
+    border-radius: 8px; 
+}
+/* Prevent text wrapping and setup relative position for arrows */
+.slider-container {
+  display: block;
+}
+
+/* Hide standard scrollbars for a clean look, but keep scrolling functionality */
+.custom-scrollbar::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.custom-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  scroll-behavior: smooth;
+}
+
+/* Base Arrow Styling */
+.slider-arrow {
+  position: absolute;
+  top: 0;
+  bottom: 1rem; /* Aligns with the bottom padding of the container */
+  width: 45px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease, background-color 0.2s ease;
+}
+
+/* footer css */
+/* Show arrows when hovering over the slider section */
+.slider-container:hover .slider-arrow {
+  opacity: 1;
+}
+
+.slider-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.left-arrow { left: 0; border-radius: 0 4px 4px 0; }
+.right-arrow { right: 0; border-radius: 4px 0 0 4px; }
+
+/* Force correct image aspect ratio inside Bootstrap's ratio container */
+.object-fit-cover {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+ /* Embedded Footer Styles to protect original stylesheet structure */
+        .custom-footer-box {
+            border: 1px solid #4a4d3a;
+            border-radius: 8px;
+            background-color: #222222;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .text-gold {
+            color: #dfb755;
+        }
+        .text-green {
+            color: #79b45d;
+        }
+        .btn-custom-download {
+            background-color: #612c31;
+            color: #ffffff;
+            border: none;
+            border-radius: 6px;
+            padding: 8px 16px;
+            min-width: 170px;
+            text-align: left;
+            transition: opacity 0.2s;
+        }
+        .btn-custom-download:hover {
+            opacity: 0.9;
+            color: #ffffff;
+        }
+        .btn-subtext {
+            font-size: 0.7rem;
+            display: block;
+            margin-bottom: -2px;
+            opacity: 0.8;
+        }
+        .btn-maintext {
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+        .copyright-text {
+            color: #777777;
+            font-size: 1.5rem;
+        }
